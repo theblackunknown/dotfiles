@@ -1,0 +1,4 @@
+[
+    { "keys": ["shift+ctrl+d"], "command": "duplicate_line" },
+    { "keys": ["ctrl+alt+p"], "command": "prompt_select_workspace" }
+]

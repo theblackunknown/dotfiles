@@ -1,0 +1,8 @@
+{
+	"extensions":
+	[
+		".aliases",
+		".bash_prompt",
+		".zshrc"
+	]
+}

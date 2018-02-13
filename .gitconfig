@@ -1,0 +1,40 @@
+[alias]
+    co = checkout
+    br = branch
+    ci = commit -v
+    st = status -s
+    visual = !gitk
+    sl = stash list
+    sa = stash apply
+    ss = stash save
+    sp = stash pop
+    log-overview = log --graph --pretty=format:'%C(auto)%h%Creset -%C(auto)%d%Creset %s %C(green)(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+    lo = log --graph --pretty=format:'%C(auto)%h%Creset -%C(auto)%d%Creset %s %C(green)(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+    done = "!f() { git branch | grep \"$1\" | cut -c 3- | grep -v done | xargs -I{} git git branch -m {} done-{}; }; f"
+    # undo from here http://megakemp.com/2016/08/25/git-undo/
+    undo = "!f() { git reset --hard $(git rev-parse --abbrev-ref HEAD)@{${1-1}}; }; f"
+[branch]
+    autoSetupRebase = always
+    autoSetupMerge = always
+[core]
+    autocrlf = true
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[grep]
+    lineNumber = true
+[log]
+    decorate = auto
+[pull]
+    rebase = true
+[push]
+    default = simple
+[rebase]
+    autoStash = true
+[stash]
+    showPatch = true
+[user]
+    name = MACHIZAUD Andréa
+    email = andrea.machizaud@gmail.com
