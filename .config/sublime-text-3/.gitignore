@@ -1,5 +1,9 @@
-# Store only configuration files
-Packages/User/*
+# Ignore everything ...
+*
+
+# ... Except User Packages configuration
+!Packages/
+!Packages/User/
 !Packages/User/*.sublime-settings
 !Packages/User/*.sublime-keymap
 !Packages/User/*.sublime-build
