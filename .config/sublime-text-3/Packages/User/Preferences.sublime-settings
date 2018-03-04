@@ -43,20 +43,9 @@
 		"*.sublime-workspace",
 		"*.lnk"
 	],
-	"folder_exclude_patterns":
-	[
-		".svn",
-		".git",
-		".hg",
-		"CVS",
-		"__pycache__",
-		".pytest_cache"
-	],
-	"font_size": 10,
 	"ignored_packages":
 	[
 		"Anaconda",
-		"CMakeEditor",
 		"EasyClangComplete",
 		"Vintage"
 	],

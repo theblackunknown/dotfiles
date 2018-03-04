@@ -1,12 +1,6 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
-# Change ls colours
-export LS_COLORS="ow=01;36;40"
-
-# Make cd use ls colours
-zstyle ':completion:*' list-colors "${(@s.:.)LS_COLORS}"
-
 # Path to your oh-my-zsh installation.
 export ZSH=${HOME}/.oh-my-zsh
 
@@ -276,3 +270,13 @@ zstyle ':completion::approximate*:*' prefix-needed false
 
 # `cd` is two letter I am too lazy to type
 setopt autocd
+
+alias subl-windows='"/mnt/c/Program Files/Sublime Text 3/subl.exe"'
+
+# Change ls colours
+export LS_COLORS="ow=01;36;40"
+
+# Make cd use ls colours
+zstyle ':completion:*' list-colors "${(@s.:.)LS_COLORS}"
+
+
