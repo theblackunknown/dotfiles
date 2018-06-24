@@ -1,4 +1,6 @@
 [
     { "keys": ["shift+ctrl+d"], "command": "duplicate_line" },
-    { "keys": ["ctrl+alt+p"], "command": "prompt_select_workspace" }
+    { "keys": ["ctrl+alt+p"], "command": "prompt_select_workspace" },
+    { "keys": ["ctrl+tab"], "command": "next_view" },
+    { "keys": ["ctrl+shift+tab"], "command": "prev_view" }
 ]

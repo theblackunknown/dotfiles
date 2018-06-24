@@ -2,7 +2,6 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
-		"GLSL Compiler"
 	],
 	"install_prereleases":
 	[
@@ -13,11 +12,12 @@
 		"All Autocomplete",
 		"Anaconda",
 		"ANSIescape",
+		"C++ Snippets",
+		"C++11",
 		"Clang Format",
 		"CMake",
 		"CMakeBuilder",
 		"CMakeEditor",
-		"CUDA C++",
 		"DevDocs",
 		"Dotfiles Syntax Highlighting",
 		"EasyClangComplete",
@@ -29,20 +29,16 @@
 		"GitGutter",
 		"GLSL Compiler",
 		"GLSL Validator",
-		"GNU Octave Completions",
 		"MagicPython",
-		"MSBuild",
-		"MSBuild selector",
 		"OmniMarkupPreviewer",
 		"OpenGL Shading Language (GLSL)",
 		"Package Control",
 		"PackageResourceViewer",
 		"PowerShell",
 		"Pretty JSON",
-		"R-Box",
-		"R-snippets",
-		"SendCode",
+		"QML",
 		"SublimeREPL",
+		"Terminal",
 		"Text Pastry",
 		"TodoReview"
 	]
