@@ -2,3 +2,6 @@
 	path = win10-setup-scripts
 	url = git@github.com:theblackunknown/Win10-Initial-Setup-Script.git
 	branch = pantherinae-defaults
+[submodule "win10-bloatware-removal"]
+	path = win10-bloatware-removal
+	url = https://gist.github.com/7f3b34ad89a159e6daa1
