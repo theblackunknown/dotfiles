@@ -52,10 +52,10 @@
 		"__pycache__",
 		".pytest_cache"
 	],
-	"font_size": 10,
 	"ignored_packages":
 	[
 		"Anaconda",
+		"CMakeBuilder",
 		"CMakeEditor",
 		"EasyClangComplete",
 		"Vintage"
