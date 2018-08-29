@@ -1,0 +1,5 @@
+{
+    "configure_on_save": false,
+    "server_configure_verbose": true,
+    "write_build_targets_after_successful_configure": false
+}

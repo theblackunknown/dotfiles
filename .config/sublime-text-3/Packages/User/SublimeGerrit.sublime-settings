@@ -1,0 +1,11 @@
+{
+	"connection.password": "2JlN8f64TdxaiHpKJb/0S74pKHFfvL218jKPLbPgRQ",
+	"connection.timeout": 10,
+	"connection.url": "http://gerrit.allegorithmic.com",
+	"connection.username": "andrea.machizaud",
+	"git.default_args": "-c color.ui=false",
+	"git.executable_path": "",
+	"notifications.check_interval": 300,
+	"notifications.check_limit": 50,
+	"notifications.check_query": "status:open AND -is:draft"
+}

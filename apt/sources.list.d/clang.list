@@ -1,0 +1,16 @@
+# Clang/LLVM
+deb http://apt.llvm.org/xenial/ llvm-toolchain-xenial main
+deb-src http://apt.llvm.org/xenial/ llvm-toolchain-xenial main
+# 4.0
+deb http://apt.llvm.org/xenial/ llvm-toolchain-xenial-4.0 main
+deb-src http://apt.llvm.org/xenial/ llvm-toolchain-xenial-4.0 main
+# 5.0
+deb http://apt.llvm.org/xenial/ llvm-toolchain-xenial-5.0 main
+deb-src http://apt.llvm.org/xenial/ llvm-toolchain-xenial-5.0 main
+# 6.0
+deb http://apt.llvm.org/xenial/ llvm-toolchain-xenial-6.0 main
+deb-src http://apt.llvm.org/xenial/ llvm-toolchain-xenial-6.0 main
+# 7.0
+deb http://apt.llvm.org/xenial/ llvm-toolchain-xenial-7.0 main
+deb-src http://apt.llvm.org/xenial/ llvm-toolchain-xenial-7.0 main
+
