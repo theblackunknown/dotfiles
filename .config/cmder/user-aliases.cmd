@@ -15,8 +15,8 @@ vi=vim $*
 cmderr=cd /d "%CMDER_ROOT%"
 
 ;= Visual Studio aliases
-vcvarsall="C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Auxiliary\Build\vcvarsall.bat" $*
-vcvarsall14="C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Auxiliary\Build\vcvarsall.bat" -vcvars_ver=14.0 $*
+vcvarsall="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Auxiliary\Build\vcvars64.bat" $*
+vcvarsall14="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Auxiliary\Build\vcvars64.bat" -vcvars_ver=14.0 $*
 
 ;= Git aliases from oh-my-zsh
 g=git $*
