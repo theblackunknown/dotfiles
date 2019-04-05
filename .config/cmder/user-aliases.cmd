@@ -14,9 +14,26 @@ unalias=alias /d $1
 vi=vim $*
 cmderr=cd /d "%CMDER_ROOT%"
 
+;= Ninja
+pninja=ptime ninja $*
+
 ;= Visual Studio aliases
-vcvarsall="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Auxiliary\Build\vcvars64.bat" $*
-vcvarsall14="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Auxiliary\Build\vcvars64.bat" -vcvars_ver=14.0 $*
+subl="C:\Program Files\Sublime Text 3\subl.exe" $*
+
+;= Visual Studio aliases
+vcvars64140="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvars64.bat" -vcvars_ver=14.0 $*
+vcvars64141="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvars64.bat" -vcvars_ver=14.1 $*
+vcvars64142="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvars64.bat" -vcvars_ver=14.2 $*
+
+vcvars64="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvars64.bat" $*
+vcvarsall="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvarsall.bat" $*
+
+;= ls aliases
+l=ls --color=always --all --human-readable $*
+ll=ls --color=always --all --human-readable -al $*
+
+;= grep aliases
+grep=grep --color=always $*
 
 ;= Git aliases from oh-my-zsh
 g=git $*

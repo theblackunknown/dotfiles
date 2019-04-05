@@ -2,22 +2,43 @@
 	"auto_find_in_selection": true,
 	"binary_file_patterns":
 	[
-		"*.jpg",
-		"*.jpeg",
-		"*.png",
-		"*.gif",
-		"*.ttf",
-		"*.tga",
+		"*.a",
+		"*.class",
+		"*.conf",
+		"*.db",
 		"*.dds",
-		"*.ico",
+		"*.dll",
+		"*.dylib",
 		"*.eot",
-		"*.pdf",
-		"*.swf",
+		"*.exe",
+		"*.gif",
+		"*.ico",
+		"*.idb",
 		"*.jar",
+		"*.jpeg",
+		"*.jpg",
+		"*.lib",
+		"*.ncb",
+		"*.o",
+		"*.obj",
+		"*.pdb",
+		"*.pdf",
+		"*.png",
+		"*.psd",
 		"*.pyc",
-		"*.zip"
+		"*.pyc",
+		"*.pyo",
+		"*.sdf",
+		"*.so",
+		"*.sublime-workspace",
+		"*.suo",
+		"*.swf",
+		"*.tga",
+		"*.ttf",
+		"*.zip",
+		".DS_Store"
 	],
-	"color_scheme": "Packages/Monokai Extended/Monokai Extended.tmTheme",
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
 	"ensure_newline_at_eof_on_save": true,
 	"file_exclude_patterns":
 	[
@@ -52,14 +73,20 @@
 		"__pycache__",
 		".pytest_cache"
 	],
+	"font_size": 12,
 	"ignored_packages":
 	[
+		"ActionScript",
 		"Anaconda",
-		"CMakeBuilder",
+		"AppleScript",
+		"ASP",
+		"C#",
+		"Clojure",
 		"CMakeEditor",
 		"EasyClangComplete",
 		"Vintage"
 	],
+	"index_workers": 2,
 	"mdpopups.sublime_user_lang_map":
 	{
 	},
@@ -68,6 +95,7 @@
 	[
 		120
 	],
+	"sublime_merge_path": "D:\\Program Files\\Sublime Merge\\sublime_merge.exe",
 	"theme": "Default.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true

@@ -2,6 +2,9 @@
 	"extensions":
 	[
 		"sbsprs",
-		"xtex"
+		"xtex",
+		"sbs",
+		"in",
+		"qrc"
 	]
 }

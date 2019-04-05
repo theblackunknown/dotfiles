@@ -1,6 +1,9 @@
 [
+    { "keys": ["ctrl+alt+b"], "command": "cancel_build" },
+
     { "keys": ["shift+ctrl+d"], "command": "duplicate_line" },
     { "keys": ["ctrl+alt+p"], "command": "prompt_select_workspace" },
     { "keys": ["ctrl+tab"], "command": "next_view" },
-    { "keys": ["ctrl+shift+tab"], "command": "prev_view" }
+    { "keys": ["ctrl+shift+tab"], "command": "prev_view" },
+    { "keys": ["ctrl+shift+t"], "command": "reopen_last_file" }
 ]
