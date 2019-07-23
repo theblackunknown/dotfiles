@@ -3,8 +3,8 @@
 	[
 		"sbsprs",
 		"xtex",
-		"sbs",
 		"in",
-		"qrc"
+		"qrc",
+		"sbs"
 	]
 }

@@ -46,7 +46,6 @@
 		"*.pyo",
 		"*.exe",
 		"*.dll",
-		"*.obj",
 		"*.o",
 		"*.a",
 		"*.lib",
@@ -73,7 +72,7 @@
 		"__pycache__",
 		".pytest_cache"
 	],
-	"font_size": 12,
+	"font_size": 11,
 	"ignored_packages":
 	[
 		"ActionScript",
@@ -86,7 +85,7 @@
 		"EasyClangComplete",
 		"Vintage"
 	],
-	"index_workers": 2,
+	"index_workers": 4,
 	"mdpopups.sublime_user_lang_map":
 	{
 	},
