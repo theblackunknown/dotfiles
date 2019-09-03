@@ -14,6 +14,7 @@
 		"CMake",
 		"CMakeEditor",
 		"Dockerfile Syntax Highlighting",
+		"DokuWiki Syntax",
 		"DoxyDoc",
 		"EasyClangComplete",
 		"EditorConfig",
@@ -38,6 +39,7 @@
 		"SublimeREPL",
 		"Terminal",
 		"Text Pastry",
-		"TodoReview"
+		"TodoReview",
+		"TWiki"
 	]
 }
