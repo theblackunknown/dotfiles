@@ -1,4 +1,5 @@
 {
+    "$schema": "https://aka.ms/terminal-profiles-schema",
     "globals": {
         "alwaysShowTabs": true,
         "defaultProfile": "{bf707e82-eda7-4e9f-9fea-7c2d9505ff37}",
@@ -427,6 +428,12 @@
             "snapOnInput": true,
             "startingDirectory": "%USERPROFILE%",
             "useAcrylic": true
+        },
+        {
+            "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+            "hidden": false,
+            "name": "Azure Cloud Shell",
+            "source": "Windows.Terminal.Azure"
         }
     ],
     "schemes": [
