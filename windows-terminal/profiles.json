@@ -14,7 +14,7 @@
             {
                 "command": "copy",
                 "keys": [
-                    "ctrl+shift+c"
+                    "ctrl+c"
                 ]
             },
             {
@@ -98,7 +98,7 @@
             {
                 "command": "paste",
                 "keys": [
-                    "ctrl+shift+v"
+                    "ctrl+v"
                 ]
             },
             {
