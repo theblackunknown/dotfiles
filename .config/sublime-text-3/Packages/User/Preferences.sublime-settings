@@ -72,6 +72,7 @@
 		"__pycache__",
 		".pytest_cache"
 	],
+	"font_face": "Cascadia Code",
 	"font_size": 11,
 	"ignored_packages":
 	[
