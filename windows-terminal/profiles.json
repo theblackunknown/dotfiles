@@ -225,7 +225,8 @@
         "requestedTheme": "system",
         "showTabsInTitlebar": true,
         "showTerminalTitleInTitlebar": true,
-        "wordDelimiters": " ./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}~?│"
+        // "wordDelimiters": " ./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}~?│"
+        "wordDelimiters": " \"':,;<>~!@#$%^&*|+=[]{}~?│"
     },
     "profiles": [
         {
