@@ -23,6 +23,7 @@
 		"Git",
 		"GitGutter",
 		"Indent XML",
+		"INI",
 		"MagicPython",
 		"MarkdownLivePreview",
 		"MDL Language",
@@ -33,6 +34,7 @@
 		"OpenGL Shading Language (GLSL)",
 		"Package Control",
 		"PackageResourceViewer",
+		"poetry",
 		"PowerShell",
 		"Pretty JSON",
 		"rainbow_csv",
@@ -40,6 +42,7 @@
 		"Terminal",
 		"Text Pastry",
 		"TodoReview",
+		"TOML",
 		"TWiki"
 	]
 }

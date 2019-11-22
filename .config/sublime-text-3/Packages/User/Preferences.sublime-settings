@@ -73,7 +73,7 @@
 		".pytest_cache"
 	],
 	"font_face": "Cascadia Code",
-	"font_size": 11,
+	"font_size": 10,
 	"ignored_packages":
 	[
 		"ActionScript",
@@ -90,6 +90,7 @@
 	{
 	},
 	"mdpopups.use_sublime_highlighter": true,
+	"poetry_is_orange": false,
 	"rulers":
 	[
 		120
