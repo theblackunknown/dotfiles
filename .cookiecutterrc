@@ -1,0 +1,8 @@
+default_context:
+    full_name: "Andréa Machizaud"
+    email: "andrea.machizaud@gmail.com"
+    user_home: "C:\Users\Andrea"
+    github_url: "github.com"
+    github_username: "theblackunknown"
+    remote: "origin"
+    branch: "master"
