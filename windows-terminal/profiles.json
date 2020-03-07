@@ -5,25 +5,27 @@
     "launchMode": "maximized",
     "wordDelimiters": " \"',;<>~!@#$^&*|=[]{}~?│\u2502",
     "confirmCloseAllTabs": false,
-    "defaultProfile": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+    "defaultProfile": "{a8d45ff7-b0cc-4143-910e-ae6771beb92f}",
     "profiles": [
         {
             "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
             "commandline" : "cmd.exe /D /E /V /K \"%USERPROFILE%/cmder_mini/config/user-aliases.cmd\"",
+            "startingDirectory": "%USERPROFILE%"
+        },
+        {
+            "guid": "{a8d45ff7-b0cc-4143-910e-ae6771beb92f}",
+            "commandline" : "cmd.exe /D /E /V /K %CMDER_HOME%/vendor/init.bat",
+            "startingDirectory": "%USERPROFILE%",
+            "name" : "cmder",
+            "icon": "%CMDER_HOME%/icons/cmder.ico",
             "acrylicOpacity": 0.75,
             "fontFace": "Cascadia Code PL",
             "fontSize": 10,
-            "startingDirectory": "%USERPROFILE%",
             "experimental.retroTerminalEffect": false,
             "useAcrylic": true
         },
         {
-            "commandline" : "cmd.exe /D /E /V /K %CMDER_HOME%/vendor/init.bat",
-            "startingDirectory": "%USERPROFILE%",
-            "name" : "cmder",
-            "icon": "%CMDER_HOME%/icons/cmder.ico"
-        },
-        {
+            "guid": "{3059c7e1-fc52-412d-b49d-d2f21e813865}",
             "commandline" : "cmd.exe /D /E /V /K \"%CLINK_DIR%/clink.bat\" inject --autorun --profile ~/clink",
             "name" : "clink",
             "startingDirectory": "%USERPROFILE%",
