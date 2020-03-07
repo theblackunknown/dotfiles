@@ -8,14 +8,9 @@
     "defaultProfile": "{a8d45ff7-b0cc-4143-910e-ae6771beb92f}",
     "profiles": [
         {
-            "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
-            "commandline" : "cmd.exe /D /E /V /K \"%USERPROFILE%/cmder_mini/config/user-aliases.cmd\"",
-            "startingDirectory": "%USERPROFILE%"
-        },
-        {
             "guid": "{a8d45ff7-b0cc-4143-910e-ae6771beb92f}",
             "commandline" : "cmd.exe /D /E /V /K %CMDER_HOME%/vendor/init.bat",
-            "startingDirectory": "%USERPROFILE%",
+            "startingDirectory": "C:/devel",
             "name" : "cmder",
             "icon": "%CMDER_HOME%/icons/cmder.ico",
             "acrylicOpacity": 0.75,
@@ -23,6 +18,11 @@
             "fontSize": 10,
             "experimental.retroTerminalEffect": false,
             "useAcrylic": true
+        },
+        {
+            "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+            "commandline" : "cmd.exe /D /E /V /K \"%USERPROFILE%/cmder_mini/config/user-aliases.cmd\"",
+            "startingDirectory": "%USERPROFILE%"
         },
         {
             "guid": "{3059c7e1-fc52-412d-b49d-d2f21e813865}",
