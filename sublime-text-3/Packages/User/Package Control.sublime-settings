@@ -25,7 +25,9 @@
 		"Indent XML",
 		"INI",
 		"MagicPython",
+		"Markdown Extended",
 		"MarkdownLivePreview",
+		"MarkdownPreview",
 		"MDL Language",
 		"Monokai Extended",
 		"Monokai++",
@@ -43,6 +45,7 @@
 		"Text Pastry",
 		"TodoReview",
 		"TOML",
-		"TWiki"
+		"TWiki",
+		"VBScript"
 	]
 }
