@@ -28,6 +28,12 @@ vcvars64142="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Au
 vcvars64="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvars64.bat" $*
 vcvarsall="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvarsall.bat" $*
 
+;= Substance
+designer="C:\Program Files\Allegorithmic\Substance Designer\Substance Designer.exe" $*
+sdpython="C:\Program Files\Allegorithmic\Substance Designer\plugins\pythonsdk\python.exe" $*
+painter="C:\Program Files\Allegorithmic\Substance Painter\Substance Painter.exe" $*
+alchemist="C:\Program Files\Allegorithmic\Substance Alchemist\Substance Alchemist.exe" $*
+
 ;= ls aliases
 l=ls --color=always --all --human-readable $*
 ll=ls --color=always --all --human-readable -al $*
