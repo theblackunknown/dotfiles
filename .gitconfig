@@ -17,7 +17,7 @@
     autoSetupRebase = local
     autoSetupMerge = always
 [core]
-	autocrlf = input
+	autocrlf = true
 	editor = 'C:\\Program Files\\Sublime Text 3\\subl.exe' -w
 [color]
     ui = auto
