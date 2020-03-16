@@ -73,7 +73,7 @@
 		".pytest_cache"
 	],
 	"font_face": "Cascadia Code",
-	"font_size": 10,
+	"font_size": 9,
 	"ignored_packages":
 	[
 		"ActionScript",
@@ -82,7 +82,6 @@
 		"ASP",
 		"C#",
 		"Clojure",
-		"EasyClangComplete",
 		"Vintage"
 	],
 	"index_workers": 4,
