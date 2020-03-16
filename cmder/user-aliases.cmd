@@ -17,7 +17,7 @@ cmderr=cd /d "%CMDER_ROOT%"
 ;= Ninja
 pninja=ptime ninja $*
 
-;= Visual Studio aliases
+;= Sublime
 subl="C:\Program Files\Sublime Text 3\subl.exe" $*
 
 ;= Visual Studio aliases
