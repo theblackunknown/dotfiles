@@ -46,7 +46,8 @@
             "commandline": "cmd.exe /D /E /V /K \"%USERPROFILE%/cmder_mini/config/user-aliases.cmd\"",
             "icon": "ms-appx:///ProfileIcons/{0caa0dad-35be-5f56-a8ff-afceeeaa6101}.png",
             "startingDirectory": "D:/devel",
-            "startingTitle": "devel (D:)"        },
+            "startingTitle": "devel (D:)"
+        },
         {
             "guid": "{7f6a3672-1055-4456-99de-2ede9e88b7ba}",
             "name": "cmd - builds",

@@ -33,6 +33,10 @@
     decorate = auto
 [push]
     default = simple
+[pull]
+    ff = only
+[merge]
+    ff = only
 [rebase]
     autoStash = true
 [stash]
