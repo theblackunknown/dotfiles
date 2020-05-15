@@ -13,6 +13,11 @@
 		"h",
 		"system_error",
 		"iosfwd",
-		"moc"
+		"moc",
+		"xutility",
+		"xstring",
+		"filesystem",
+		"algorithm",
+		"optional"
 	]
 }
