@@ -72,8 +72,8 @@
 		"__pycache__",
 		".pytest_cache"
 	],
-	"font_face": "Cascadia Mono PL",
-	"font_size": 8,
+	"font_face": "Cascadia Code Regular",
+	"font_size": 10,
 	"ignored_packages":
 	[
 		"ActionScript",
@@ -94,7 +94,7 @@
 	[
 		120
 	],
-	"sublime_merge_path": "D:\\Program Files\\Sublime Merge\\sublime_merge.exe",
+	"sublime_merge_path": "C:\\Program Files\\Sublime Merge\\sublime_merge.exe",
 	"theme": "Default.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true

@@ -18,6 +18,8 @@
 		"xstring",
 		"filesystem",
 		"algorithm",
-		"optional"
+		"optional",
+		"fstream",
+		"vector"
 	]
 }

@@ -14,6 +14,9 @@ unalias=alias /d $1
 vi=vim $*
 cmderr=cd /d "%CMDER_ROOT%"
 
+;= WinMerge
+winmerge="C:\Program Files\WinMerge\WinMergeU.exe" $*
+
 ;= Ninja
 pninja=ptime ninja $*
 

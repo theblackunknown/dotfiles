@@ -37,6 +37,7 @@
     ff = only
 [merge]
     ff = only
+	tool = winmerge
 [rebase]
     autoStash = true
 [stash]

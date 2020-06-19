@@ -6,6 +6,7 @@
 	"installed_packages":
 	[
 		"Advanced CSV",
+		"AlignTab",
 		"All Autocomplete",
 		"ANSIescape",
 		"C++ Snippets",
@@ -23,9 +24,9 @@
 		"GitGutter",
 		"Indent XML",
 		"INI",
+		"LiveReload",
 		"MagicPython",
 		"Markdown Extended",
-		"MarkdownLivePreview",
 		"MarkdownPreview",
 		"MDL Language",
 		"Monokai Extended",
