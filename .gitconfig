@@ -34,10 +34,10 @@
 [push]
     default = simple
 [pull]
-    ff = only
+	ff = only
 [merge]
     ff = only
-	tool = winmerge
+	tool = smerge
 [rebase]
     autoStash = true
 [stash]
@@ -48,7 +48,10 @@
 [credential]
 	helper = manager
 [filter "lfs"]
-	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
+	clean = git-lfs clean -- %f
+[mergetool "smerge"]
+	cmd = smerge mergetool \"$BASE\" \"$LOCAL\" \"$REMOTE\" -o \"$MERGED\"
+	trustExitCode = true

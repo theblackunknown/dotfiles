@@ -2,7 +2,6 @@
     "$schema": "https://aka.ms/terminal-profiles-schema",
     "initialCols": 120,
     "initialRows": 30,
-    "rowsToScroll": 1, // to be removed once fixed
     "launchMode": "maximized",
     "wordDelimiters": " \"',;<>~!@#$^&*|=[]{}~?│\u2502",
     "confirmCloseAllTabs": false,
@@ -10,65 +9,38 @@
     "profiles": [
         {
             "guid": "{a8d45ff7-b0cc-4143-910e-ae6771beb92f}",
-            "commandline": "cmd.exe /D /E /V /K %CMDER_HOME%/vendor/init.bat",
+            "name": "cmd - devel (C:)",
+            "commandline": "cmd.exe /D /E /V /K %CMDER_HOME%/vendor/init.bat /f", //  /t /v /d
             "startingDirectory": "C:/devel",
-            "name" : "cmder",
             "icon": "%CMDER_HOME%/icons/cmder.ico",
             "acrylicOpacity": 0.75,
             "fontFace": "Cascadia Code PL",
             "fontSize": 10,
-            "experimental.retroTerminalEffect": false,
-            "useAcrylic": true
-        },
-        {
-            "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
-            "commandline": "cmd.exe /D /E /V /K \"%USERPROFILE%/cmder_mini/config/user-aliases.cmd\"",
-            "startingDirectory": "%USERPROFILE%"
-        },
-        {
-            "guid": "{3059c7e1-fc52-412d-b49d-d2f21e813865}",
-            "commandline": "cmd.exe /D /E /V /K \"%CLINK_DIR%/clink.bat\" inject --autorun --profile ~/clink",
-            "name" : "clink",
-            "startingDirectory": "%USERPROFILE%",
-            "icon": "ms-appx:///ProfileIcons/{0caa0dad-35be-5f56-a8ff-afceeeaa6101}.png"
-        },
-        {
-            "guid": "{bf707e82-eda7-4e9f-9fea-7c2d9505ff37}",
-            "name": "cmd - devel (C:)",
-            "commandline": "cmd.exe /D /E /V /K \"%USERPROFILE%/cmder_mini/config/user-aliases.cmd\"",
-            "icon": "ms-appx:///ProfileIcons/{0caa0dad-35be-5f56-a8ff-afceeeaa6101}.png",
-            "startingDirectory": "C:/devel",
-            "startingTitle": "devel (C:)"
-        },
-        {
-            "guid": "{983af80e-240f-4bbd-9acb-0f7d234c4543}",
-            "name": "cmd - devel (D:)",
-            "commandline": "cmd.exe /D /E /V /K \"%USERPROFILE%/cmder_mini/config/user-aliases.cmd\"",
-            "icon": "ms-appx:///ProfileIcons/{0caa0dad-35be-5f56-a8ff-afceeeaa6101}.png",
-            "startingDirectory": "D:/devel",
-            "startingTitle": "devel (D:)"
+            "useAcrylic": true,
+            "historySize": 100000
         },
         {
             "guid": "{7f6a3672-1055-4456-99de-2ede9e88b7ba}",
-            "name": "cmd - builds",
-            "commandline": "cmd.exe /D /E /V /K \"%USERPROFILE%/cmder_mini/config/user-aliases.cmd\"",
-            "icon": "ms-appx:///ProfileIcons/{0caa0dad-35be-5f56-a8ff-afceeeaa6101}.png",
+            "name": "cmd - builds (C:)",
+            "commandline": "cmd.exe /D /E /V /K %CMDER_HOME%/vendor/init.bat /f", //  /t /v /d
+            "icon": "%CMDER_HOME%/icons/cmder.ico",
             "startingDirectory": "C:/builds",
-            "startingTitle": "builds (C:)"
+            "acrylicOpacity": 0.75,
+            "fontFace": "Cascadia Code PL",
+            "fontSize": 10,
+            "useAcrylic": true,
+            "historySize": 100000
         },
         {
-            "guid": "{96266295-e13b-4243-945b-da3eb90fb417}",
-            "commandline": "cmd.exe /D /E /V /K \"%USERPROFILE%/cmder_mini/config/user-aliases.cmd\"",
-            "icon": "D:/devel/designer/profx/applications/designer/res/substance.ico",
-            "name": "Substance Designer (git)",
-            "startingDirectory": "D:/devel/designer"
-        },
-        {
-            "guid": "{9bd03dd0-af91-4de9-bcb8-a8c7dd553b6b}",
-            "commandline": "cmd.exe /D /E /V /K \"%USERPROFILE%/cmder_mini/config/user-aliases.cmd\"",
-            "icon": "D:/devel/designer/profx/applications/designer/res/substance.ico",
-            "name": "Substance Designer (build)",
-            "startingDirectory": "C:/builds/designer-debug"
+            "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+            "name": "cmd - %USERPROFILE%",
+            "commandline": "cmd.exe /D /E /V /K %CMDER_HOME%/vendor/init.bat /f", //  /t /v /d
+            "startingDirectory": "%USERPROFILE%",
+            "icon": "%CMDER_HOME%/icons/cmder.ico",
+            "acrylicOpacity": 0.75,
+            "fontFace": "Cascadia Code PL",
+            "fontSize": 10,
+            "useAcrylic": true
         },
         {
             "guid": "{58ad8b0c-3ef8-5f4d-bc6f-13e4c00f2530}",
@@ -80,7 +52,7 @@
         {
             "guid": "{1e3280a7-9009-4201-8a7f-b6e59eff673c}",
             "commandline": "py.exe -3",
-            "icon": "C:/Users/andrea.machizaud/AppData/Local/Programs/Python/Python37/Lib/test/imghdrdata/python.png",
+            "icon": "%USERPROFILE%/AppData/Local/Programs/Python/Python37/Lib/test/imghdrdata/python.png",
             "name": "Python 3"
         },
         {
