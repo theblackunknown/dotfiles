@@ -37,9 +37,37 @@
 		"*.zip",
 		".DS_Store"
 	],
-	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
-	"dictionary": "Packages/Language - English/en_GB.dic",
+	"color_scheme": "Packages/Color Scheme - Default/Mariana.sublime-color-scheme",
 	"ensure_newline_at_eof_on_save": false,
+	"font_face": "Cascadia Code PL",
+	"font_size": 8,
+	"ignored_packages":
+	[
+		"ActionScript",
+		"Anaconda",
+		"AppleScript",
+		"ASP",
+		"C#",
+		"Clojure",
+		"GitGutter",
+		"Vintage",
+	],
+	"index_workers": 2,
+	"mdpopups.sublime_user_lang_map":
+	{
+	},
+	"mdpopups.use_sublime_highlighter": true,
+	"poetry_is_orange": false,
+	"rulers":
+	[
+		120
+	],
+	"spell_check": true,
+	"dictionary": "Packages/Language - English/en_GB.dic",
+	"sublime_merge_path": "C:\\Program Files\\Sublime Merge\\sublime_merge.exe",
+	"theme": "Adaptive.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": false,
 	"file_exclude_patterns":
 	[
 		"*.pyc",
@@ -72,30 +100,17 @@
 		"__pycache__",
 		".pytest_cache"
 	],
-	"font_face": "Cascadia Code PL",
-	"font_size": 9,
-	"ignored_packages":
+	"added_words":
 	[
-		"ActionScript",
-		"Anaconda",
-		"AppleScript",
-		"ASP",
-		"C#",
-		"Clojure",
-		"Vintage"
+		"Captis",
+		"opencv",
+		"strided",
 	],
-	"index_workers": 2,
-	"mdpopups.sublime_user_lang_map":
-	{
-	},
-	"mdpopups.use_sublime_highlighter": true,
-	"poetry_is_orange": false,
-	"rulers":
+	"ignored_words":
 	[
-		120
+		"d2",
+		"d3",
+		"db7",
+		"df0",
 	],
-	"sublime_merge_path": "C:\\Program Files\\Sublime Merge\\sublime_merge.exe",
-	"theme": "Adaptive.sublime-theme",
-	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": false
 }

@@ -18,7 +18,7 @@
     autoSetupMerge = always
 [core]
 	autocrlf = true
-	editor = 'C:\\Program Files\\Sublime Text 3\\subl.exe' -w
+	editor = 'C:\\Program Files\\Sublime Text\\subl.exe' -w
 [color]
     ui = auto
 [winUpdater]
@@ -55,3 +55,7 @@
 [mergetool "smerge"]
 	cmd = smerge mergetool \"$BASE\" \"$LOCAL\" \"$REMOTE\" -o \"$MERGED\"
 	trustExitCode = true
+[clangFormat]
+    binary = C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Preview\\VC\\Tools\\Llvm\\x64\\bin\\clang-format.exe
+[credential "helperselector"]
+    selected = manager-core

@@ -1,4 +1,4 @@
 {
-	"binary": "D:\\Program Files\\LLVM\\bin\\clang-format.exe",
-	"style": "File"
+	"binary": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\Llvm\\x64\\bin\\clang-format.exe",
+	"style": "File",
 }

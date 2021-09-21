@@ -14,6 +14,9 @@ unalias=alias /d $1
 vi=vim $*
 cmderr=cd /d "%CMDER_ROOT%"
 
+;= CMake
+ccpack="C:\Program Files\CMake\bin\cpack.exe" $*
+
 ;= WinMerge
 winmerge="C:\Program Files\WinMerge\WinMergeU.exe" $*
 
@@ -21,23 +24,19 @@ winmerge="C:\Program Files\WinMerge\WinMergeU.exe" $*
 pninja=ptime ninja $*
 
 ;= Sublime
-subl="C:\Program Files\Sublime Text 3\subl.exe" $*
+subl="C:\Program Files\Sublime Text\subl.exe" $*
 smerge="C:\Program Files\Sublime Merge\smerge.exe" $*
 
 ;= Visual Studio aliases
-vcvars64140="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvars64.bat" -vcvars_ver=14.0 $*
-vcvars64141="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvars64.bat" -vcvars_ver=14.1 $*
-vcvars64142="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvars64.bat" -vcvars_ver=14.2 $*
+vcvars64140="C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Auxiliary\Build\vcvars64.bat" -vcvars_ver=14.0 $*
+vcvars64141="C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Auxiliary\Build\vcvars64.bat" -vcvars_ver=14.1 $*
+vcvars64142="C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Auxiliary\Build\vcvars64.bat" -vcvars_ver=14.2 $*
 
-vcvars64="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvars64.bat" $*
-vcvarsall="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvarsall.bat" $*
+vcvars64="C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Auxiliary\Build\vcvars64.bat" $*
+vcvarsall="C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Auxiliary\Build\vcvarsall.bat" $*
 
-prevcvars64140="C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Auxiliary\Build\vcvars64.bat" -vcvars_ver=14.0 $*
-prevcvars64141="C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Auxiliary\Build\vcvars64.bat" -vcvars_ver=14.1 $*
-prevcvars64142="C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Auxiliary\Build\vcvars64.bat" -vcvars_ver=14.2 $*
-
-prevcvars64="C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Auxiliary\Build\vcvars64.bat" $*
-prevcvarsall="C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Auxiliary\Build\vcvarsall.bat" $*
+vcvars2019="C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Auxiliary\Build\vcvars64.bat" $*
+vcvars2022="C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Auxiliary\Build\vcvars64.bat" $*
 
 ;= Substance
 designer="C:\Program Files\Allegorithmic\Substance Designer\Substance Designer.exe" $*

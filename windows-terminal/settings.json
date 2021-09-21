@@ -1,74 +1,125 @@
 {
     "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": 
+    [
+        {
+            "command": "closeTab",
+            "keys": "ctrl+w"
+        },
+        {
+            "command": "openNewTabDropdown",
+            "keys": "ctrl+space"
+        },
+        {
+            "command": 
+            {
+                "action": "copy"
+            },
+            "keys": "ctrl+c"
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "vertical"
+            },
+            "keys": "alt+shift+v"
+        },
+        {
+            "command": "paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "command": 
+            {
+                "action": "newTab"
+            },
+            "keys": "ctrl+t"
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "horizontal"
+            },
+            "keys": "alt+shift+h"
+        }
+    ],
+    "confirmCloseAllTabs": false,
+    "defaultProfile": "{a8d45ff7-b0cc-4143-910e-ae6771beb92f}",
     "initialCols": 120,
     "initialRows": 30,
     "launchMode": "maximized",
-    "wordDelimiters": " \"',;<>~!@#$^&*|=[]{}~?│\u2502",
-    "confirmCloseAllTabs": false,
-    "defaultProfile": "{a8d45ff7-b0cc-4143-910e-ae6771beb92f}",
-    "profiles": [
-        {
-            "guid": "{a8d45ff7-b0cc-4143-910e-ae6771beb92f}",
-            "name": "cmd - devel (C:)",
-            "commandline": "cmd.exe /D /E /V /K %CMDER_HOME%/vendor/init.bat /f", //  /t /v /d
-            "startingDirectory": "C:/devel",
-            "icon": "%CMDER_HOME%/icons/cmder.ico",
-            "acrylicOpacity": 0.75,
-            "fontFace": "Cascadia Code PL",
-            "fontSize": 10,
-            "useAcrylic": true,
-            "historySize": 100000
-        },
-        {
-            "guid": "{7f6a3672-1055-4456-99de-2ede9e88b7ba}",
-            "name": "cmd - builds (C:)",
-            "commandline": "cmd.exe /D /E /V /K %CMDER_HOME%/vendor/init.bat /f", //  /t /v /d
-            "icon": "%CMDER_HOME%/icons/cmder.ico",
-            "startingDirectory": "C:/builds",
-            "acrylicOpacity": 0.75,
-            "fontFace": "Cascadia Code PL",
-            "fontSize": 10,
-            "useAcrylic": true,
-            "historySize": 100000
-        },
-        {
-            "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
-            "name": "cmd - %USERPROFILE%",
-            "commandline": "cmd.exe /D /E /V /K %CMDER_HOME%/vendor/init.bat /f", //  /t /v /d
-            "startingDirectory": "%USERPROFILE%",
-            "icon": "%CMDER_HOME%/icons/cmder.ico",
-            "acrylicOpacity": 0.75,
-            "fontFace": "Cascadia Code PL",
-            "fontSize": 10,
-            "useAcrylic": true
-        },
-        {
-            "guid": "{58ad8b0c-3ef8-5f4d-bc6f-13e4c00f2530}",
-            "name": "Debian",
-            "commandline": "wsl.exe --distribution Debian",
-            "startingDirectory": "//wsl$/Debian/home/andrea.machizaud",
-            "icon": "ms-appx:///ProfileIcons/{9acb9455-ca41-5af7-950f-6bca1bc9722f}.png"
-        },
-        {
-            "guid": "{1e3280a7-9009-4201-8a7f-b6e59eff673c}",
-            "commandline": "py.exe -3",
-            "icon": "%USERPROFILE%/AppData/Local/Programs/Python/Python37/Lib/test/imghdrdata/python.png",
-            "name": "Python 3"
-        },
-        {
-            "guid": "{55fca4a2-7c82-4285-baab-f0ea5d14c4e8}",
-            "commandline": "py.exe -2",
-            "icon": "C:/Python27/Lib/test/imghdrdata/python.png",
-            "name": "Python 2"
-        },
-        {
-            "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
-            "hidden": false,
-            "name": "Azure Cloud Shell",
-            "source": "Windows.Terminal.Azure"
-        }
-    ],
-    "schemes": [
+    "profiles": 
+    {
+        "defaults": {},
+        "list": 
+        [
+            {
+                "acrylicOpacity": 0.75,
+                "commandline": "cmd.exe /D /E /V /K %CMDER_HOME%/vendor/init.bat /f",
+                "fontFace": "Cascadia Code PL",
+                "fontSize": 10,
+                "guid": "{a8d45ff7-b0cc-4143-910e-ae6771beb92f}",
+                "historySize": 200000,
+                "icon": "%CMDER_HOME%/icons/cmder.ico",
+                "name": "cmd - devel (C:)",
+                "startingDirectory": "C:/devel",
+                "useAcrylic": true
+            },
+            {
+                "acrylicOpacity": 0.75,
+                "commandline": "cmd.exe /D /E /V /K %CMDER_HOME%/vendor/init.bat /f",
+                "fontFace": "Cascadia Code PL",
+                "fontSize": 10,
+                "guid": "{7f6a3672-1055-4456-99de-2ede9e88b7ba}",
+                "historySize": 100000,
+                "icon": "%CMDER_HOME%/icons/cmder.ico",
+                "name": "cmd - builds (C:)",
+                "startingDirectory": "C:/builds",
+                "useAcrylic": true
+            },
+            {
+                "acrylicOpacity": 0.75,
+                "commandline": "cmd.exe /D /E /V /K %CMDER_HOME%/vendor/init.bat /f",
+                "fontFace": "Cascadia Code PL",
+                "fontSize": 10,
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "icon": "%CMDER_HOME%/icons/cmder.ico",
+                "name": "cmd - %USERPROFILE%",
+                "startingDirectory": "%USERPROFILE%",
+                "useAcrylic": true
+            },
+            {
+                "commandline": "wsl.exe --distribution Debian",
+                "guid": "{58ad8b0c-3ef8-5f4d-bc6f-13e4c00f2530}",
+                "icon": "ms-appx:///ProfileIcons/{9acb9455-ca41-5af7-950f-6bca1bc9722f}.png",
+                "name": "Debian",
+                "startingDirectory": "//wsl$/Debian/home/andrea.machizaud"
+            },
+            {
+                "commandline": "py.exe -3",
+                "guid": "{1e3280a7-9009-4201-8a7f-b6e59eff673c}",
+                "icon": "%USERPROFILE%/AppData/Local/Programs/Python/Python37/Lib/test/imghdrdata/python.png",
+                "name": "Python 3"
+            },
+            {
+                "commandline": "py.exe -2",
+                "guid": "{55fca4a2-7c82-4285-baab-f0ea5d14c4e8}",
+                "icon": "C:/Python27/Lib/test/imghdrdata/python.png",
+                "name": "Python 2"
+            },
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": false,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            },
+            {}
+        ]
+    },
+    "schemes": 
+    [
         {
             "background": "#0C0C0C",
             "black": "#0C0C0C",
