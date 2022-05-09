@@ -1,31 +1,4 @@
 {
     "verbose" : true,
-    "errors_style": "phantoms",
-    "clang_binary" : "D:\\Program Files\\LLVM\\bin\\clang++"
-    // ,
-    // "common_flags":
-    // [
-        // "-isystem",
-        // "D:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\VC\\Tools\\MSVC\\14.16.27023\\include",
-        // "-isystem",
-        // "D:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\VC\\Tools\\MSVC\\14.16.27023\\atlmfc\\include",
-        // "-isystem",
-        // "D:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\VC\\Auxiliary\\VS\\include",
-        // "-isystem",
-        // "D:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\VC\\Auxiliary\\VS\\UnitTest\\include",
-        // "-isystem",
-        // "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.17763.0\\ucrt",
-        // "-isystem",
-        // "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.17763.0\\um",
-        // "-isystem",
-        // "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.17763.0\\shared",
-        // "-isystem",
-        // "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.17763.0\\winrt",
-        // "-isystem",
-        // "C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.6.2\\Include\\um",
-        // "--system-header-prefix=glog/",
-        // "--system-header-prefix=vulkan/",
-        // "--system-header-prefix=range/",
-        // "--system-header-prefix=boost/"
-    // ]
+    "errors_style": "phantoms"
 }

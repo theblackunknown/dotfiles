@@ -1,11 +1,12 @@
 default_context:
     full_name: "Andréa Machizaud"
     email: "andrea.machizaud@gmail.com"
-    user_home: "C:\Users\andrea.machizaud"
+    user_home: "C:\Users\machizau.ADOBENET"
     github_url: "github.com"
     github_username: "theblackunknown"
     remote: "origin"
-    branch: "master"
+    branch: "main"
+    pypi_repository_name: "pypi"
     license: "BSD-3"
 
 cookiecutters_dir: "~/.cookiecutters/"

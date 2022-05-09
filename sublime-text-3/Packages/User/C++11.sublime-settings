@@ -41,5 +41,21 @@
 		// "memory",
 		// "initializer_list",
 		// "cmath"
-	]
+		"metal",
+		"metal_array",
+		"metal_assert",
+		"metal_command_buffer",
+		"metal_texture",
+		"metal_types",
+		"metal_raytracing",
+		"metal_atomic",
+		"metal_limits",
+		"metal_extended_vector",
+		"metal_matrix",
+		"metal_config",
+		"xstddef",
+		"strstream",
+		"limits",
+		"iostream",
+	],
 }

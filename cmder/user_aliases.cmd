@@ -27,16 +27,16 @@ pninja=ptime ninja $*
 subl="C:\Program Files\Sublime Text\subl.exe" $*
 smerge="C:\Program Files\Sublime Merge\smerge.exe" $*
 
+;= Visual Studio Code
+code="C:\Program Files\Microsoft VS Code\Code.exe" $*
+
 ;= Visual Studio aliases
-vcvars64140="C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Auxiliary\Build\vcvars64.bat" -vcvars_ver=14.0 $*
-vcvars64141="C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Auxiliary\Build\vcvars64.bat" -vcvars_ver=14.1 $*
-vcvars64142="C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Auxiliary\Build\vcvars64.bat" -vcvars_ver=14.2 $*
+vcvars64140="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\Build\vcvars64.bat" -vcvars_ver=14.0 $*
+vcvars64141="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\Build\vcvars64.bat" -vcvars_ver=14.1 $*
+vcvars64142="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\Build\vcvars64.bat" -vcvars_ver=14.2 $*
 
-vcvars64="C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Auxiliary\Build\vcvars64.bat" $*
-vcvarsall="C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Auxiliary\Build\vcvarsall.bat" $*
-
-vcvars2019="C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Auxiliary\Build\vcvars64.bat" $*
-vcvars2022="C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Auxiliary\Build\vcvars64.bat" $*
+vcvars64="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\Build\vcvars64.bat" $*
+vcvarsall="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\Build\vcvarsall.bat" $*
 
 ;= Substance
 designer="C:\Program Files\Allegorithmic\Substance Designer\Substance Designer.exe" $*

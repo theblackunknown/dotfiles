@@ -1,9 +1,5 @@
 {
 	"csv_per_file_setting":
 	[
-		{
-			"file": "D:\\Git\\source-arnold-pipeline\\dummy.csv",
-			"use_header": true
-		}
 	]
 }

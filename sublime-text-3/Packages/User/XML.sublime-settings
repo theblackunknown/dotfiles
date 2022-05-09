@@ -5,6 +5,7 @@
 		"xtex",
 		"in",
 		"qrc",
-		"sbs"
-	]
+		"sbs",
+		"manifest",
+	],
 }

@@ -18,7 +18,7 @@
     autoSetupMerge = always
 [core]
 	autocrlf = true
-	editor = 'C:\\Program Files\\Sublime Text\\subl.exe' -w
+	editor = 'C:\\Program Files\\Sublime Text\\subl.exe' -n -w
 [color]
     ui = auto
 [winUpdater]
@@ -42,9 +42,6 @@
     autoStash = true
 [stash]
     showPatch = true
-[user]
-    name = MACHIZAUD Andréa
-    email = andrea.machizaud@gmail.com
 [credential]
 	helper = manager
 [filter "lfs"]
@@ -56,6 +53,16 @@
 	cmd = smerge mergetool \"$BASE\" \"$LOCAL\" \"$REMOTE\" -o \"$MERGED\"
 	trustExitCode = true
 [clangFormat]
-    binary = C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Preview\\VC\\Tools\\Llvm\\x64\\bin\\clang-format.exe
+	binary = C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang-format.exe
 [credential "helperselector"]
     selected = manager-core
+[includeIf "gitdir:devel/personal/"]
+    path = .gitconfig.personal
+
+; include only if a remote with the given URL exists (note
+; that such a URL may be provided later in a file or in a
+; file read after this file is read, as seen in this example)
+# [includeIf "hasconfig:remote.*.url:https://example.com/**"]
+#     path = foo.inc
+# [remote "origin"]
+#     url = https://example.com/git
